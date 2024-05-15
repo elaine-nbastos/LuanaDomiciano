@@ -16,13 +16,13 @@
 
     --cor-fonte-primaria: black;
     --cor-fonte-secundaria: white;
-    --cor-fonte-terciaria: #ffa5ab;
+    --cor-fonte-terciaria: #da627d;
 
     --cor-primaria: #f9dbbd;
-    --cor-secundaria: #da627d;
+    --cor-secundaria: #a53860;
     --cor-terciaria:#ffa5ab ;
     --cor-quaternaria:#450920 ;
-    --cor-quintenaria:#a53860;
+    --cor-quintenaria:#da627d;
 
     /* MODO LIGHT*/
 
@@ -100,6 +100,10 @@ header{
         --bs-btn-disabled-color: #fff;
         --bs-btn-disabled-bg: var(--cor-quaternaria)!important;
         --bs-btn-disabled-border-color: #6c757d;
+    }
+
+    .card-text{
+        font-family: var(--fonte-secundaria);
     }
 
 [data-bs-theme="light"]{
