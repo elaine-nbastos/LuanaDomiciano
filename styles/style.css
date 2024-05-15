@@ -38,6 +38,43 @@ header{
     background-image:linear-gradient(40deg, var(--cor-terciaria), var(--cor-secundaria) );
     }
 
+    #apresentacao .title{
+        font-family: var(--fonte-secundaria);
+        color: var(--cor-quaternaria);
+    }
+
+    .subtitle{
+        font-family: var(--fonte-terciaria);
+        color: var(--cor-fonte-terciaria);
+    }
+
+    #avatar{
+        border-radius: 100px 200px 150px 100px;
+    }
+
+    .text{
+        font-style: italic;
+        color: var(--cor-fonte-terciaria);
+    }
+
+    .card-title{
+        font-family: var(--fonte-terciaria);
+        --bs-card-title-color: var(--cor-quaternaria);
+
+    }
+
+    .btn-primary {
+        --bs-btn-bg: var(--cor-secundaria) !important;
+        --bs-btn-border-color: var(--cor-quintenaria);
+        --bs-btn-hover-bg: var(--cor-secundaria) !important;
+    }
+
+    #divisor{
+        background-color: var(--cor-secundaria);
+        color: var(--cor-fonte-secundaria);
+        font-family: var(--fonte-terciaria);
+    }
+
 [data-bs-theme="light"]{
 
     
