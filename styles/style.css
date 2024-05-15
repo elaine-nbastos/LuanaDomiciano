@@ -106,6 +106,12 @@ header{
         font-family: var(--fonte-secundaria);
     }
 
+    #galeria .btn:hover{
+        opacity: .7;
+        transition: 2s;
+        transform: scale(1.1);
+    }
+
 [data-bs-theme="light"]{
 
     
