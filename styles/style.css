@@ -134,7 +134,7 @@ header{
     }
 
     .card-text{
-        font-family: var(--fonte-secundaria);
+        font-family: var(--fonte-primaria);
     }
 
     #galeria .btn:hover{
